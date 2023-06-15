@@ -85,7 +85,12 @@
   }
   
   .padGridItem2 {
-    padding: 10px 10px 10px 10px;
+    padding: 40px 40px 40px 40px;
+    margin-bottom: 15px;
+  }
+
+  .padGridItem3 {
+    padding: 50px 50px 50px 50px;
     margin-bottom: 15px;
   }
 
@@ -141,6 +146,7 @@
 
   .blueContainer {
     background-color: #60C0C0; /* Paws Rescue Blue */;
+    margin-bottom: 40px;
   }
 
   .lightGreyBG {
@@ -220,6 +226,7 @@
   }
   .whiteText {
     color: #ffffff;
+    margin: 0 auto;
   }
 
   .darkText {
@@ -290,6 +297,38 @@
   .button3:hover {
     background-color: #60C0C0; /* Paws Rescue Blue */
     color: #ffffff
+  }
+
+  .button4 {
+    padding: 9px 25px;
+    background-color: #EBC0B4; /* Paws Rescue Pink */
+    color: #ffffff; /* Paws Text Colour */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .button4:hover {
+    background-color: #ffffff; /* Paws Rescue Blue */
+    color: #60C0C0
+  }
+
+  .button5 {
+    padding: 9px 25px;
+    background-color: #60C0C0; /* Paws Rescue Pink */
+    color: #ffffff; /* Paws Text Colour */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .button5:hover {
+    background-color: #ffffff; /* Paws Rescue Blue */
+    color: #EBC0B4
   }
 
  /* HEADER AREA */
@@ -405,4 +444,22 @@
 
   .whiteBG {
     background-color: #FFFFFF;
+    margin-bottom: 15px;
+    margin-right: 40px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: inline;
+  }
+
+  li {
+    display: inline;
+    float: left;
+    margin-right: 30px;
+  }
+
+  h4 {
+    color: #60C0C0;
+    font-size: 18px;
   }
